@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.img-s{
+	width: 800px;
+	height: 400px;
+}
+.slider{
+    border-radius: 15px;
+	overflow-x: hidden;
+    margin: 40px auto;
+    width: 600px;
+    height: 100%;
+    position: relative;
+}
+.but-banners{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+.slider-line{
+	
+
+	display: flex;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+.containt{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.prev{
+	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+
+	border:none;
+	padding: 0;
+}
+.nek{
+	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border:none;
+	padding: 0;
+}
+.prev img{
+	width: 50px;
+	height: 50px;
+	transform: rotate(0.75turn);
+}
+.nek img{
+	width: 50px;
+	height: 50px;
+		transform: rotate(0.25turn);
+}
+.prev:hover{
+	box-shadow: 0px 0px 80px 3px red;
+	background-color:rgba(255,0,0,0.2) !important;
+}
+.nek:hover{
+	box-shadow: 0px 0px 80px 3px red;
+	background-color:rgba(255,0,0,0.2) !important;
+}
+.prev:active{
+	box-shadow: 0px 0px 70px 3px red;
+	background-color:rgba(255,0,0,0.3) !important;
+}
+.nek:active{
+	box-shadow: 0px 0px 70px 3px red;
+	background-color:rgba(255,0,0,0.3) !important;
+}
+.radius-main{
+	display: flex;
+	justify-content: space-around;
+}
+.radius{
+	border-radius: 1rem;
+	background-color: #ff4040;
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
+	cursor: pointer;
+}
